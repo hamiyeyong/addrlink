@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/addrlink.hamiyeyong.com/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/addrlink.hamiyeyong.com/static/js/main.9861e44f.chunk.js",
-    "main.js.map": "/addrlink.hamiyeyong.com/static/js/main.9861e44f.chunk.js.map",
-    "runtime-main.js": "/addrlink.hamiyeyong.com/static/js/runtime-main.4c701cbc.js",
-    "runtime-main.js.map": "/addrlink.hamiyeyong.com/static/js/runtime-main.4c701cbc.js.map",
-    "static/js/2.2da25fd8.chunk.js": "/addrlink.hamiyeyong.com/static/js/2.2da25fd8.chunk.js",
-    "static/js/2.2da25fd8.chunk.js.map": "/addrlink.hamiyeyong.com/static/js/2.2da25fd8.chunk.js.map",
-    "static/js/3.eeb54862.chunk.js": "/addrlink.hamiyeyong.com/static/js/3.eeb54862.chunk.js",
-    "static/js/3.eeb54862.chunk.js.map": "/addrlink.hamiyeyong.com/static/js/3.eeb54862.chunk.js.map",
-    "index.html": "/addrlink.hamiyeyong.com/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/addrlink.hamiyeyong.com/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.2da25fd8.chunk.js.LICENSE.txt": "/addrlink.hamiyeyong.com/static/js/2.2da25fd8.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/addrlink.hamiyeyong.com/static/media/logo.6ce24c58.svg"
+    "main.css": "/hamiyeyong.github.io/addrlink/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/hamiyeyong.github.io/addrlink/static/js/main.9861e44f.chunk.js",
+    "main.js.map": "/hamiyeyong.github.io/addrlink/static/js/main.9861e44f.chunk.js.map",
+    "runtime-main.js": "/hamiyeyong.github.io/addrlink/static/js/runtime-main.d3d87147.js",
+    "runtime-main.js.map": "/hamiyeyong.github.io/addrlink/static/js/runtime-main.d3d87147.js.map",
+    "static/js/2.2da25fd8.chunk.js": "/hamiyeyong.github.io/addrlink/static/js/2.2da25fd8.chunk.js",
+    "static/js/2.2da25fd8.chunk.js.map": "/hamiyeyong.github.io/addrlink/static/js/2.2da25fd8.chunk.js.map",
+    "static/js/3.eeb54862.chunk.js": "/hamiyeyong.github.io/addrlink/static/js/3.eeb54862.chunk.js",
+    "static/js/3.eeb54862.chunk.js.map": "/hamiyeyong.github.io/addrlink/static/js/3.eeb54862.chunk.js.map",
+    "index.html": "/hamiyeyong.github.io/addrlink/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/hamiyeyong.github.io/addrlink/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.2da25fd8.chunk.js.LICENSE.txt": "/hamiyeyong.github.io/addrlink/static/js/2.2da25fd8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hamiyeyong.github.io/addrlink/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c701cbc.js",
+    "static/js/runtime-main.d3d87147.js",
     "static/js/2.2da25fd8.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.9861e44f.chunk.js"
