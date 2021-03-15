@@ -1,0 +1,37 @@
+$orange9: #d9480f;
+$size: 2.3rem;
+
+h1 {
+  text-align: center;
+  }
+
+.Search {
+  display: flex;
+  justify-content: center;
+}
+
+.Search input {
+  width: 300px;
+  border-radius: 16px 0px 0px 16px;
+  padding: 0px 20px;
+  font-size: 1.5rem;
+  border: solid 2px $orange9;
+}
+
+.Search .icon {
+  padding: 5px;
+  background-color: $orange9;
+  width: $size;
+  height: $size;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 0px 16px 16px 0px;
+  cursor: pointer;
+  
+  &:hover {
+    background: lighten($orange9, 3%);
+  }
+  &:active {
+    background: darken($orange9, 10%);
+  }
+}
