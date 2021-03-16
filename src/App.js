@@ -1,9 +1,10 @@
 import Search from "./components/Search";
+import SearchContainer from "./containers/Search";
 
 function App() {
   return (
     <>
-      <Search />
+      <SearchContainer />
     </>
   );
 }

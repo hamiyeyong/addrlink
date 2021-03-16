@@ -1,0 +1,54 @@
+@import "common.scss";
+
+$fontSize: 1.1rem;
+
+
+.tableWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+table {
+  min-width: 600px;
+  width: 80%;
+  
+  border-top: solid 2px $orange9;
+  border-bottom: solid 2px $orange9;
+
+  cursor: pointer;
+
+  font-size: $fontSize;
+
+  & th {
+    color: $orange9;
+    border-bottom: solid 1px $orange8;
+  }
+
+  & tr:not(:last-child) td {
+    border-bottom: solid 1px $orange6;
+  }
+}
+
+table.addrlink {
+  & tr td:last-child {
+    text-align: center;
+  }
+
+  & .road::before {
+    content: "도로";
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: $orange9;
+    padding: 1px;
+    margin-right: 5px;
+  }
+
+  & .jibun::before {
+    content: "지번";
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: $orange9;
+    padding: 1px;
+    margin-right: 5px;
+  }
+}
