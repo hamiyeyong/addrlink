@@ -12,20 +12,20 @@ table {
   min-width: 600px;
   width: 80%;
   
-  border-top: solid 2px $orange9;
-  border-bottom: solid 2px $orange9;
+  border-top: solid 2px $baseColor9;
+  border-bottom: solid 2px $baseColor9;
 
   cursor: pointer;
 
   font-size: $fontSize;
 
   & th {
-    color: $orange9;
-    border-bottom: solid 1px $orange8;
+    color: $baseColor9;
+    border-bottom: solid 1px $baseColor8;
   }
 
   & tr:not(:last-child) td {
-    border-bottom: solid 1px $orange6;
+    border-bottom: solid 1px $baseColor6;
   }
 }
 
@@ -38,7 +38,7 @@ table.addrlink {
     content: "도로";
     font-size: 0.9rem;
     color: #fff;
-    background-color: $orange9;
+    background-color: $baseColor9;
     padding: 1px;
     margin-right: 5px;
   }
@@ -47,7 +47,7 @@ table.addrlink {
     content: "지번";
     font-size: 0.9rem;
     color: #fff;
-    background-color: $orange9;
+    background-color: $baseColor9;
     padding: 1px;
     margin-right: 5px;
   }

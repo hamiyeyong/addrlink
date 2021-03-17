@@ -3,9 +3,9 @@ import axios from "axios";
 import { MdSearch } from "react-icons/md";
 import "./Search.scss";
 
-function Search({ onSearch }) {
+function Search({ onSearch, setPage, setLink, page }) {
   const apikey = process.env.REACT_APP_ADDR_KEY;
-  const searchLink = `https://www.juso.go.kr/addrlink/addrLinkApi.do?resultType=json&currentPage=1&countPerPage=10&confmKey=${apikey}&keyword=`;
+  const searchBaseLink = `https://www.juso.go.kr/addrlink/addrLinkApi.do?resultType=json&countPerPage=20&confmKey=${apikey}&keyword=`;
   const [text, setText] = useState("");
 
   const onChange = (e) => setText(e.target.value);
@@ -13,9 +13,16 @@ function Search({ onSearch }) {
     e.preventDefault();
     const searchAddr = async () => {
       try {
-        const response = await axios.get(searchLink + text);
-        const jusos = response.data.results.juso || [];
+        const searchLink = searchBaseLink + text + "&currentPage=";
+        const response = await axios.get(searchLink + 1);
+        const data = response.data.results;
+        const jusos = data.juso || [];
+        // 검색 결과 셋팅
         onSearch(jusos);
+        // page에 사용될 정보 셋팅
+        setPage(data.common.currentPage, data.common.totalCount);
+        setLink(searchLink);
+        console.log(response.data.results);
       } catch (e) {
         console.log("@@ERROR");
         console.log(e);

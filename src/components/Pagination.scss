@@ -1,0 +1,26 @@
+@import "common.scss";
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  & a {
+    padding: 5px 10px;
+    border-radius: 20%;
+    
+    color: $baseColor9;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    cursor: pointer;
+  }
+  & a.active {
+    background: $baseColor9;
+    
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}

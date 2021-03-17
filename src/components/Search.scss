@@ -16,12 +16,12 @@ h1 {
   border-radius: 16px 0px 0px 16px;
   padding: 0px 20px;
   font-size: 1.5rem;
-  border: solid 2px $orange9;
+  border: solid 2px $baseColor9;
 }
 
 .Search .icon {
   padding: 5px;
-  background-color: $orange9;
+  background-color: $baseColor9;
   width: $size;
   height: $size;
   color: #fff;
@@ -30,9 +30,9 @@ h1 {
   cursor: pointer;
   
   &:hover {
-    background: lighten($orange9, 3%);
+    background: lighten($baseColor9, 3%);
   }
   &:active {
-    background: darken($orange9, 10%);
+    background: darken($baseColor9, 10%);
   }
 }
